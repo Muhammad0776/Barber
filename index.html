@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BekBarber</title>
+    <!--Bootstrap CSS 5.0-V -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!--Bootstrap swiper css-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!--Bootstrap style css-->
+    <link rel="stylesheet" href="sass/main.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Demo styles -->
+    <style>
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper-container {
+            width: 300px;
+            height: 300px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 45vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div>
+                    <img src="img/chears.png" class="logo" alt="">
+                    <img src="img/arber.png" alt="">
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#history">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallary</a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-center align-items-center">
+                    <a href="#"><i class="fas fa-user me-4"></i></a>
+                    <a href="#"><img src="img/qo'g'iroq.png" class="chec" alt=""></a>
+                    <button class="btn py-3 px-3 shadow">Appointment</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <nav class="py-2">
+        <div class="container pb-3 d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-between align-items-center">
+               
+                <ul class="d-flex mb-0 ms-5 d-sm-visible">
+                    <li class="me-5"><a href="#">Home</a></li>
+                    <li class="me-5"><a href="#"></a></li>
+                    <li class="me-5"><a href="#"></a></li>
+                    <li class="me-5"><a href="#"></a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav> -->
+
+    <!-- header Home start -->
+    <header id="home">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-lg-1 py-5">
+                    <h1 class="mb-4">
+                        <span class="text-warning">Hairstyle</span>
+                        Reflects <br> The Personality <br> Inside You
+                    </h1>
+                    <p class="mb-4">It is a long established fact that a reader will be distracted by the readable
+                        content of a page
+                        when looking at.</p>
+                    <button class="btn mt-4 py-3 px-5 shadow">Get Started</button>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-lg-2 py-5">
+                    <img src="img/img01.png" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- section History start -->
+    <section id="history">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-md-12 col-lg-6 py-5">
+                    <img src="img/img02.png" class="w-100" alt="">
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 py-5 px-5 left">
+                    <h1 class="mb-3">
+                        OUR <span class="text-warning">HISTORY</span>
+                    </h1>
+                    <p class="mb-3">It is a long established fact that a reader will be distracted by the readable
+                        content of a page w
+                        hen looking at.I</p>
+                    <p class="mb-3">It is a long established fact that a reader will be distracted by the readable
+                        content of a page w
+                        hen looking at.I</p>
+                    <button class="btn py-3 px-5 shadow">Learn more</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- section02 Service start -->
+    <section class="sec02" id="service">
+        <div class="container py-5">
+            <h2 class="text-center mb-5">Services We <br> <span class="text-warning">Provide</span></h2>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="color py-4 px-2 mx-4 m-0 mb-5 text-center">
+                        <div class="cent py-2 px-0 mx-5 mb-5 text-center">
+                            <img src="img/Vector.png" alt="">
+                        </div>
+                        <h3 class="mb-5">Hair Cut</h3>
+                        <p>long established fact that a re <br> acted by the readable content of <br>
+                            hen looking at.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="py-4 px-2 mx-4 m-0 color">
+                        <div class="cent px-0 mx-5 text-center">
+                            <img src="img/electric-razor 1.png" alt="">
+                        </div>
+                        <h3 class="mb-5">Hair Cut</h3>
+                        <p>long established fact that a re <br> acted by the readable content of <br>
+                            hen looking at.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="py-4 px-2 mx-4 m-0 color">
+                        <div class="cent py-2 px-0 mx-5 mb-5 text-center">
+                            <img src="img/cleanser 1.png" alt="">
+                        </div>
+                        <h3 class="mb-5">Hair Cut</h3>
+                        <p>long established fact that a re <br> acted by the readable content of <br>
+                            hen looking at.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section Gallary start -->
+    <section class="gallaryHome">
+        <div class="container py-5">
+            <h2 class="text-center mb-4">Our <span class="text-warning">Gallery</span></h2>
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-4">
+                    <div class="text-center mx-3 py-3">
+                        <h2 class="mb-4">Barber <span class="text-warning">Shop</span></h2>
+                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus similique quam
+                            reprehenderit
+                            minima illo architecto ab corrupti praesentium quod ipsum.</p>
+                        <button class="btn shadow mt-4"><a href="#">Visit</a></button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4">
+                    <!-- Swiper -->
+                    <div class="swiper-container mySwiper py-4 w-100">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/handsome-man-barbershop-shaving-beard_1303-26257.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/young-man-barbershop-trimming-hair_1303-26253.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/young-man-barbershop-trimming-hair_1303-26256.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/handsome-man-barbershop-shaving-beard_1303-26258.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/handsome-man-barbershop-shaving-beard_1303-26259.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/handsome-man-shaving-beard-barbershop_1303-26261.png" />
+                            </div>
+                        </div>
+                        <!-- <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div> -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4">
+                    <div class="text-center mx-3 py-3">
+                        <h2 class="mb-4">Our <span class="text-warning">Business</span></h2>
+                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus similique quam
+                            reprehenderit
+                            minima illo architecto ab corrupti praesentium quod ipsum.</p>
+                        <button class="btn shadow mt-4"><a href="#">Visit</a></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer start -->
+    <footer class="py-3">
+        <div class="container py-4">
+            <div class="text-center">
+                <div class="mb-5">
+                    <img src="img/chears.png" class="logo" alt="">
+                    <img src="img/arber.png" alt="">
+                </div>
+                <p class="mb-4">It is a long established fact that a reader will be distracted by the readable </p>
+                <div class="d-flex justify-content-center align-items-center mb-4">
+                    <div class="me-4 col01 d-flex justify-content-center align-items-center"><a href="#"><img
+                                src="img/Vector (3).png" alt=""></a></div>
+                    <div class="me-4 col02 d-flex justify-content-center align-items-center"><a href="#"><img
+                                src="img/Vector (4).png" alt=""></a></div>
+                    <div class="me-4 col03 d-flex justify-content-center align-items-center"><a href="#"><img
+                                src="img/Vector (5).png" alt=""></a></div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!--Bootstrap JS 5.0-V -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+    <!--Animation-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--Bootstrap swiper js-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cube",
+            grabCursor: true,
+            cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+            },
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            // navigation: {
+            //     nextEl: ".swiper-button-next",
+            //     prevEl: ".swiper-button-prev",
+            // },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+    <!-- JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
